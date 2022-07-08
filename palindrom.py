@@ -1,4 +1,7 @@
 def czyPalindrom(x):
+    """
+    Check if given word is palindrom
+    """
     x = x.lower().replace(" ", "")
     n = len(x)
     for i in range(n-1):
